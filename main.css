@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+header .title {
+  font-size: 7vw;
+}
+header .button {
+  width: 25vw;
+  font-size: 3vw;
+}
+
+main {
+  margin: 30px;
+  text-align: center;
+}
+main .block {
+  font-size: 2vw;
+  min-height: 280px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid black;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .block h2 {
+  font-size: 4vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 0;
+}
+main .block p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .block a {
+  text-align: center;
+  padding: 10px;
+  background-color: aqua;
+  width: 10vw;
+  margin: 0;
+  flex-direction: column;
+  border: 1px dashed black;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
